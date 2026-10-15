@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kiln & Co. | Small-batch Coffee Roasters</title>
+<meta name="description" content="Small-batch coffee roasted weekly. Order beans, visit the cafe, book a tasting.">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;800&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff8e6;--ink:#17233f;--mute:#4b5570;--card:#fffdf5;--line:#e8dcb8;--brand:#1d3a8a;--accent:#f2b705;--onb:#fff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#101a33;--ink:#fbf3dc;--mute:#b7bfd6;--card:#17254a;--line:#2a3a6a;--brand:#f2b705;--accent:#f2b705;--onb:#101a33}}
+*{box-sizing:border-box;margin:0}html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:18px/1.65 "Source Serif 4",Georgia,serif}
+h1,h2,h3,nav,.btn,label{font-family:"Bricolage Grotesque",system-ui,sans-serif}
+.w{max-width:1080px;margin:auto;padding:0 20px}
+header{position:sticky;top:0;background:var(--bg);z-index:5;border-bottom:2px solid var(--ink)}
+nav{display:flex;flex-wrap:wrap;gap:6px 20px;align-items:center;padding:14px 0}
+nav b{font-size:24px;font-weight:800;margin-right:auto}
+nav a{color:var(--ink);text-decoration:none;font-size:15px;font-weight:500}a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.btn{display:inline-block;background:var(--brand);color:var(--onb)!important;padding:13px 24px;border-radius:4px;text-decoration:none;font-weight:800;border:2px solid var(--ink);box-shadow:4px 4px 0 var(--ink);font-size:16px;cursor:pointer}
+.btn:active{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--ink)}
+.hero{padding:64px 0 48px}
+.hero h1{font-size:clamp(44px,10vw,112px);line-height:.95;font-weight:800;letter-spacing:-.03em;margin-bottom:22px}
+.hero p{max-width:46ch;color:var(--mute);margin-bottom:28px}
+.band{background:var(--accent);color:#17233f;padding:12px 0;font:800 18px "Bricolage Grotesque",sans-serif;border-block:2px solid var(--ink)}
+section{padding:56px 0}section h2{font-size:clamp(30px,4.5vw,44px);margin-bottom:22px;line-height:1.1}
+.g{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.c{background:var(--card);border:2px solid var(--ink);padding:22px;border-radius:4px}
+.c h3{font-size:21px;margin-bottom:6px}.c p{color:var(--mute);font-size:16px}
+.p{font:800 22px "Bricolage Grotesque",sans-serif;color:var(--brand);margin-top:10px}
+@media(prefers-color-scheme:dark){.btn,.c,header{border-color:var(--line)}.btn{box-shadow:4px 4px 0 var(--line)}}
+form{display:grid;gap:14px;max-width:520px}
+label{font-weight:500;font-size:15px;display:grid;gap:6px}
+input,textarea,select{font:inherit;padding:11px;border:2px solid var(--ink);border-radius:4px;background:var(--card);color:var(--ink)}
+#ok{display:none;border:2px solid var(--ink);padding:14px;background:var(--card)}
+footer{padding:30px 0;border-top:2px solid var(--ink);font-size:14px;color:var(--mute)}
+</style></head><body>
+<header><div class="w"><nav aria-label="Main"><b>Kiln & Co.</b>
+<a href="#home">Home</a><a href="#story">Story</a><a href="#beans">Beans</a><a href="#subscribe">Subscribe</a><a href="#cafe">Cafe</a><a href="#classes">Tastings</a><a href="#reviews">Reviews</a><a href="#contact" class="btn">Visit us</a></nav></div></header>
+<main>
+<div class="w hero" id="home"><h1>Roasted Tuesday. At your door by Friday.</h1>
+<p>Small-batch coffee from three farms we visit every year. Roasted weekly, never stored.</p>
+<a class="btn" href="#beans">Shop this week's beans</a></div>
+<div class="band"><div class="w">Free delivery over ₹1,500 · Roast date on every bag</div></div>
+
+<section id="story"><div class="w"><h2>Our story</h2>
+<p style="max-width:60ch;color:var(--mute)">Kiln & Co. started in a garage in 2017 with one 5 kg roaster. Today we roast for 40 cafes and 3,000 home subscribers, and we still taste every batch ourselves.</p></div></section>
+
+<section id="beans" style="padding-top:0"><div class="w"><h2>This week's beans</h2><div class="g">
+<div class="c"><h3>Chikmagalur Washed</h3><p>Cocoa, orange peel, clean finish. Great as filter.</p><div class="p">₹620 / 250g</div></div>
+<div class="c"><h3>Ethiopia Natural</h3><p>Blueberry and jasmine. Bright and juicy.</p><div class="p">₹780 / 250g</div></div>
+<div class="c"><h3>House Espresso</h3><p>Caramel and dark chocolate. Works with milk.</p><div class="p">₹560 / 250g</div></div></div></div></section>
+
+<section id="subscribe"><div class="w"><h2>Subscribe and save 10%</h2>
+<p style="max-width:56ch;color:var(--mute);margin-bottom:18px">Pick a roast, pick a rhythm: weekly, fortnightly or monthly. Pause or cancel from your account any time.</p><a class="btn" href="#contact">Start a subscription</a></div></section>
+
+<section id="cafe"><div class="w"><h2>The cafe</h2><div class="g">
+<div class="c"><h3>Hours</h3><p>Daily 7:30 to 20:00.</p></div>
+<div class="c"><h3>Menu</h3><p>Filter, espresso, cold brew and fresh pastries.</p></div></div></div></section>
+
+<section id="classes" style="padding-top:0"><div class="w"><h2>Tastings and classes</h2><div class="g">
+<div class="c"><h3>Saturday cupping</h3><p>Taste five coffees side by side. ₹800.</p></div>
+<div class="c"><h3>Home brewing basics</h3><p>Two hours, hands on. ₹1,500.</p></div></div></div></section>
+
+<section id="reviews"><div class="w"><h2>What customers say</h2><div class="g">
+<div class="c"><p>The freshest beans I've had in India. Roast date matters.</p><h3>Neha R.</h3></div>
+<div class="c"><p>Our office switched to Kiln and nobody went back.</p><h3>Vikram S.</h3></div></div></div></section>
+
+<section id="contact"><div class="w"><h2>Say hello</h2>
+<form id="f"><label>Name<input required autocomplete="name"></label>
+<label>Email<input required type="email" autocomplete="email"></label>
+<label>Message<textarea rows="4" required></textarea></label>
+<button class="btn">Send message</button><p id="ok" role="status">Message sent. We reply within a day.</p></form></div></section>
+</main>
+<footer><div class="w">© 2026 Kiln & Co. Demo website.</div></footer>
+<script>document.getElementById('f').addEventListener('submit',function(e){e.preventDefault();document.getElementById('ok').style.display='block';this.reset()})</script>
+</body></html>
